@@ -22,8 +22,6 @@ Also has a good amount of locally hosted games featured on the site.
 
 
 
-Simply do `%proxy hu` in `#proxy-commands` for more Holy Unblocker links on the TN Discord server.
-
 <img src="https://github.com/mothersmilk3000/mothersmilk3000/blob/main/Web%20View.png?raw=true"></img>
 
 ## Table of contents:
