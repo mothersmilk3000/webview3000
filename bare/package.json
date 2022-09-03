@@ -1,26 +1,16 @@
 {
-	"name": "tomp-bare-server",
+	"name": "mothersmilk3000-web-view",
 	"description": "Back.",
 	"version": "0.0.1",
-	"homepage": "https://github.com/tomphttp",
-	"bugs": {
-		"url": "https://github.com/tomphttp/bare-server-node/issues",
-		"email": "tomp@sys32.dev"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/tomphttp/bare-server-node.git"
-	},
 	"author": {
-		"name": "TOMP Development",
-		"email": "tomp@sys32.dev",
-		"url": "https://github.com/tomphttp"
+		"name": "Mothers Milk3000",
+		"email": "mothersmilk.com"
 	},
 	"keywords": [
 		"proxy",
-		"tomp",
-		"tomphttp",
-		"sys32"
+		"web",
+		"view",
+		"milk"
 	],
 	"license": "GPL-3.0",
 	"type": "module",
