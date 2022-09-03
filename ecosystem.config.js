@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: 'HolyUB',
+        name: 'WebVW',
         script: './backend.js',
         env: {
             PORT: 8078,
