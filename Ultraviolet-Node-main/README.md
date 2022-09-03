@@ -20,7 +20,7 @@
 - [Discord](https://discord.com)
 - [Reddit](https://reddit.com)
 - [Roblox](https://roblox.com)
-- [Netlfix](https://netlfix.com)
+- [Netlfix](https://netflix.com)
 - And more!
 
 ## Technologies Used
