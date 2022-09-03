@@ -34,9 +34,7 @@
 - [Installation And Setup](#installation-and-setup)
 - [Basic Guide](#basic-guide)
 - [Replit Setup Guide](#replit-setup-guide)
-- [Configuration](#configuration)
-- [Frontend](#static-files)
-- [Core Scripts](#core-scripts)
+
 
 # Installation and Setup
 
@@ -62,60 +60,10 @@ You will only have to run the second command once. It just allows `main.sh` to b
 
 **Note**: If you choose not to use `main.sh`, but would rather just run all commands manually, please note that you will have to manually install submodules by running `git update submodules --init`. Without it, `static` will not be installed, and that is a required directory.
 
-## Configuration
-Configuring Ultraviolet is very simple. Simple descriptions of each configurable option are provided as a comment in the block below. More detailed documentation can be found just below mentioned block.
-
-`uv.config.js`
-
-```javascript
-self.__uv$config = {
-    prefix: '/sw/', // Proxy url prefix
-    bare: '/bare/', // Bare server location
-    encodeUrl: Ultraviolet.codec.xor.encode, // URL Encoding function
-    decodeUrl: Ultraviolet.codec.xor.decode, // Decode URL function
-    handler: '/uv.handler.js', // Handler script
-    bundle: '/uv.bundle.js', // Bundled script
-    config: '/uv.config.js', // Configuration script
-    sw: '/uv.sw.js', // Service Worker Script
-};
-```
-
-| Configuration | Options and Explanation |
-| ------------- | ----------------------- |
-| Prefix | The prefix is the prefix that you want users to see. Ex: `https://example.com/service.` The default prefix is `service`. |
-| Bare | Bare Servers can run on directories. For example, if the directory was /bare/ then the bare origin would look like `http://example.org/bare/`. The bare origin is passed to clients. |
-| encodeUrl| EncodeUrl is how you want the URL a proxy site's visitors has to be encoded. Options include `Ultraviolet.codec.base64.encode`, `Ultraviolet.codec.plain.encode`, or `Ultraviolet.codec.xor.encode`. It is recommended that you use `xor` or `base64` as it hides the queries your visitors are searching and visiting.
-| decodeURL | DecodeUrl is how you want the url to be decoded. It is recommended you keep it the same as `encodeUrl`. |
-| Handler | Handler is the path to the UV handler. The default name and path to this file is `static/uv/uv.handler.js`. |
-| Bundle | Bundle is the path to the UV bundle file. The default name and path to this file is `static/uv/uv.bundle.js`. |
-| Config | Config is the path to the UV config file. The default name and path to this file is `static/uv/uv.bundle.js`. |
-| SW | SW is the path to the UV Service Worker script. The default name and path to this file is `static/uv/uv.sw.js`. |
-
-## Static Files
-
-Static files is the frontend for Ultraviolet. A standalone repository for it can be found [here](https://github.com/titaniumnetwork-dev/Ultraviolet-Static).
-
-## Core Scripts
-
-[Configuration](#configuration) mentions a few scripts that make up Ultraviolet. To get documentation for what each of the scripts do, check out the [documentation](https://github.com/titaniumnetwork-dev/Ultraviolet-Core) for them in their standalone repository.
-
-# Main Scripts After Building
-
-The client-hooking & service worker scripts required for UV are located in [ultraviolet-scripts](https://github.com/titaniumnetwork-dev/ultraviolet-scripts)
-
-- Scripts
-    - `uv.sw.js` Service worker gateway
-    - `uv.sw-handler.js` - Service worker handler
-    - `uv.bundle.js` Webpack compiled Ultraviolet rewriter
-    - `uv.handler.js` Client-side hooking
-    - `uv.config.js` Configuration
 
 # Authors
 
-- Caracal.js (Creator of Ultraviolet)
-- Divide (Creator of TOMP)
+- MothersMilk3000
 
-# Credits
-- https://github.com/tomphttp
 
 
