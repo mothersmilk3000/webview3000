@@ -21,7 +21,6 @@ Also has a good amount of locally hosted games featured on the site.
 - Has frequent support articles for issues relating to the various proxy instances
 
 
-**Be sure to join Titanium Network's Discord for more official site links:** <a href="https://discord.gg/unblock">https://discord.gg/unblock</a>
 
 Simply do `%proxy hu` in `#proxy-commands` for more Holy Unblocker links on the TN Discord server.
 
