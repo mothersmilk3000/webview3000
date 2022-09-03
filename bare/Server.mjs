@@ -7,7 +7,7 @@ export class Server {
 	maintainer = undefined;
 	project = {
 		name: 'TOMPHTTP NodeJS Bare Server',
-		repository: 'https://github.com/tomphttp/bare-server-node',
+		repository: 'https://github.com/mothersmilk3000/mothersmilk3000/tree/main/bare-server-node-master',
 	};
 	log_error = false;
 	constructor(directory, log_error, maintainer){
